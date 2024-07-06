@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <button class="tema" onclick="trocartema()">Trocar Tema</button>
+      <h1>JOGO DA VELHA</h1>
+      <hr />
+      <div class="message_container">
+        <p class="message"></p>
+      </div>
+      <div class="game">
+        <button data-i="1"></button>
+        <button class="button_space" data-i="2"></button>
+        <button data-i="3"></button>
+        <button data-i="4"></button>
+        <button class="button_space" data-i="5"></button>
+        <button data-i="6"></button>
+        <button data-i="7"></button>
+        <button class="button_space" data-i="8"></button>
+        <button data-i="9"></button>
+      </div>
+      <h2 class="currentPlayer"></h2>
+    </main>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://jeffersoncarvalho.tech" target="_blank"
+          >Jefferson Carvalho</a
+        >
+      </p>
+    </footer>
+    <script src="./src/scripts/script.js"></script>
+  </body>
+</html>
